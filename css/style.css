@@ -121,29 +121,28 @@ h1 {
 }
 
 /* section two */
-
-.section_two {
-    padding: 16px 0 160px;
+.about-us {
+    padding: 14px 0 158px;
+    position: relative;
 }
 
-.doted_section_two {
+.training-dot-top {
     width: 100%;
     margin-bottom: 160px;
 }
 
-.container_section_two {
-    max-width: 1188px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+.about-us .container h2 {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 60px;
 }
 
-.article_section_two {
-    max-width: 382px;
-    max-height: 420px;
-    width: 100%;
-    margin-right: 120px;
-    font-family: 'Roboto', sans-serif;
+.about-us .container .description-about-us p {
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -151,27 +150,28 @@ h1 {
     color: #000000;
 }
 
-.h_section_two {
-    margin-bottom: 60px;
-    font-family: 'Gothic A1', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 130%;
-    color: #000000;
+.about-us .container .description-about-us p:first-of-type {
+    margin-bottom: 46px;
 }
 
-.p_section_two {
-    margin-bottom: 44px;
+
+.description-about-us {
+    max-width: 374px;
 }
 
-.bathroom_pic_div {
-    max-width: 607px;
+.training-photo-bat {
+    max-width: 770px;
+    height: 530px;
+    position: absolute;
+    top: 260px;
+    right: 0;
 }
 
-.bathroom_pic {
+.training-photo-bat img {
     width: 100%;
 }
+
+
 
 
 /* section three */
@@ -407,52 +407,3 @@ h1 {
 }
 
 /* section training */
-.about-us {
-    padding: 14px 0 158px;
-    position: relative;
-}
-
-.training-dot-top {
-    width: 100%;
-    margin-bottom: 160px;
-}
-
-.about-us .container h2 {
-    font-family: 'Gothic A1', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 130%;
-    color: #000000;
-    margin-bottom: 60px;
-}
-
-.about-us .container .description-about-us p {
-    font-family: 'Roboto',sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 150%;
-    color: #000000;
-}
-
-.about-us .container .description-about-us p:first-of-type {
-    margin-bottom: 46px;
-}
-
-
-.description-about-us {
-    max-width: 374px;
-}
-
-.training-photo-bat {
-    max-width: 770px;
-    height: 530px;
-    position: absolute;
-    top: 260px;
-    right: 0;
-}
-
-.training-photo-bat img {
-    width: 100%;
-}
