@@ -14,8 +14,8 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
 
 ul {
@@ -66,9 +66,13 @@ ul {
 
 
 
-.container_main {
+.container {
     max-width: 1188px;
     margin: auto;
+
+}
+
+.section_one .container {
     padding: 88px 0 34px;
 }
 
@@ -261,4 +265,90 @@ h1 {
     color: #FFFFFF;
     border: none;
     text-decoration: none;
+}
+
+/* section catalog of factures  */
+
+.catalog-of-factures {
+    padding: 30px 0 150px;
+
+}
+
+.dot-img-catalog {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+
+
+.catalog-of-factures .container h4 {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    margin-bottom: 52px;
+    position: relative;
+    left: 95px;
+}
+
+.description-for-catalog-top {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 40px;
+}
+
+.description-for-catalog-bottom {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+    margin-bottom: 70px;
+}
+
+.top-catalog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-for-catalog {
+    max-width: 255px;
+}
+
+.catalog-pic {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.bottom-catalog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-catalog-section {
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 20px 46px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.catalog-of-factures .button-catalog-section {
+    display: block;
+    margin: auto;
+    width: 255px;
+    box-sizing: border-box;  
 }
