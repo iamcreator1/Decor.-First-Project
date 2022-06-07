@@ -350,5 +350,68 @@ h1 {
     display: block;
     margin: auto;
     width: 255px;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+}
+
+/* section with media and video */
+
+.media-section-with-video {
+    padding: 60px 0 95px;
+    background-image: url(../images/background_video_new.png);
+    background-color: rgba(76, 96, 113, 1);
+}
+
+.media-section-with-video .container h5 {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    position: relative;
+    left: 96px;
+    margin-bottom: 85px;
+}
+
+.video-block {
+    max-width: 255px;
+    position: relative;
+
+}
+
+.box-video {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.media-section-with-video .container .video-block p:first-of-type {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.media-section-with-video .container .video-block p:last-of-type {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.play-video-block {
+    position: absolute;
+    top: 78px;
+    right: 77px;
+}
+
+
+.media-wraper {
+    display: flex;
+    justify-content: space-between;
 }
