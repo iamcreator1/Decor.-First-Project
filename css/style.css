@@ -14,15 +14,12 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 ul {
     list-style: none;
     display: flex;
     margin-top: 12px;
-
 }
 
 .navigation {
@@ -56,7 +53,7 @@ ul {
     text-decoration: none;
 }
 
-
+/* setion one main banner  */
 .section_one {
     background-image: url(../images/background.jpg);
     background-size: 2000px;
@@ -69,7 +66,6 @@ ul {
 .container {
     max-width: 1188px;
     margin: auto;
-
 }
 
 .section_one .container {
@@ -122,8 +118,9 @@ h1 {
     font-size: 20px;
     line-height: 150%;
     color: #FFFFFF;
-
 }
+
+/* section two */
 
 .section_two {
     padding: 16px 0 160px;
@@ -152,7 +149,6 @@ h1 {
     font-size: 20px;
     line-height: 150%;
     color: #000000;
-
 }
 
 .h_section_two {
@@ -163,7 +159,6 @@ h1 {
     font-size: 24px;
     line-height: 130%;
     color: #000000;
-
 }
 
 .p_section_two {
@@ -178,6 +173,8 @@ h1 {
     width: 100%;
 }
 
+
+/* section three */
 .section_three {
     padding: 21px 0 200px;
 }
@@ -204,11 +201,7 @@ h1 {
     line-height: 130%;
     color: #000000;
     width: 410px;
-
-
-
 }
-
 
 .input {
     border: none;
@@ -271,7 +264,6 @@ h1 {
 
 .catalog-of-factures {
     padding: 30px 0 150px;
-
 }
 
 .dot-img-catalog {
@@ -376,12 +368,11 @@ h1 {
 .video-block {
     max-width: 255px;
     position: relative;
-
 }
 
 .box-video {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 23px;
     margin-bottom: 20px;
 }
 
@@ -410,8 +401,58 @@ h1 {
     right: 77px;
 }
 
-
 .media-wraper {
     display: flex;
     justify-content: space-between;
+}
+
+/* section training */
+.about-us {
+    padding: 14px 0 158px;
+    position: relative;
+}
+
+.training-dot-top {
+    width: 100%;
+    margin-bottom: 160px;
+}
+
+.about-us .container h2 {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.about-us .container .description-about-us p {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.about-us .container .description-about-us p:first-of-type {
+    margin-bottom: 46px;
+}
+
+
+.description-about-us {
+    max-width: 374px;
+}
+
+.training-photo-bat {
+    max-width: 770px;
+    height: 530px;
+    position: absolute;
+    top: 260px;
+    right: 0;
+}
+
+.training-photo-bat img {
+    width: 100%;
 }
