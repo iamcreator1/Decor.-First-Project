@@ -410,3 +410,101 @@ h1 {
 }
 
 /* section training */
+
+.catalog-of-factures-training {
+    padding: 30px 0 150px;
+}
+
+.catalog-of-factures-training img {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.catalog-of-factures-training .container {
+    text-align: center;
+}
+
+.catalog-of-factures-training .container h3 {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #373737;
+    margin-bottom: 52px;
+    position: relative;
+    left: 95px;
+    text-align: left;
+}
+
+.wraper-for-stones-top {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.wraper-for-stones-top a {
+    width: 255px;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+.wraper-for-stones-top img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.wraper-for-stones-top p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+
+}
+
+.wraper-for-stones-bottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.wraper-for-stones-bottom a {
+    width: 255px;
+    text-decoration: none;
+    margin-bottom: 90px;
+   
+}
+
+.wraper-for-stones-bottom img {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.wraper-for-stones-bottom p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #373737;
+}
+
+.show-more-training {
+    padding: 20px 46px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+}
