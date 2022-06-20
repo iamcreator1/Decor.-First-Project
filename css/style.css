@@ -592,6 +592,125 @@ h1 {
     justify-content: space-between;
 }
 
+/* ?request section lesson */
+
+.quest_banner{
+    background-color: rgba(76, 96, 113, 0.9);
+    background-image: url("../images/quest_backgr.svg");
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.quest_header{
+    max-width: 1190px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 30px 10px 10px 30px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.quest_banner h2{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.quest_main{
+    max-width: 1188px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.quest_form{
+    max-width: 1128px;
+    /*height: 370px;*/
+    border-radius: 30px;
+    background-color: #4C6071;
+    padding: 30px 50px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.select_method{
+    width: 408px;
+}
+.select_method input{
+    margin-right: 30px;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+}
+.select_method .last_method{
+    top: 44px;
+}
+.quest_form label{
+    position: relative;
+    display: block;
+    padding: 20px 138px 20px 20px;
+    margin-bottom: 10px;
+    min-width: 408px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    box-sizing: border-box;
+}
+.quest_img{
+    max-width: 610px;
+    margin-bottom: 10px;
+}
+.quest_img img{
+    width: 100%;
+    display: block;
+}
+.quest_form_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quest_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.quest_form_right .button_back{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 20px 116px;
+    background: #8F8F8F;
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+}
+.quest_form_right .button_forward{
+    font-family: 'Roboto-Regular', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 20px 116px;
+    background: linear-gradient(90deg, #4C6071 0%, #55BDEA 100%);
+    box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05), 8px 8px 109px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    border: none;
+}
+
 /* ? footer */
 
 footer {
