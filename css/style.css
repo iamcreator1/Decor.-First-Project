@@ -279,7 +279,10 @@ h1 {
     padding: 60px 0 95px;
     background-image: url(../images/background_video_new.png);
     background-color: rgba(76, 96, 113, 1);
+    position: relative;
 }
+
+
 
 .media-section-with-video .container h5 {
     font-family: 'Gothic A1', sans-serif;
@@ -332,7 +335,42 @@ h1 {
 .media-wraper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.owl-nav .owl-next::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f061";
+    font-size: 25px;
+    color: white;
+}
+.owl-nav .owl-prev::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f060";
+    font-size: 25px;
+    color: white;
+}
+.owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: -90px;
+    right: 114px;
+}
+
+.owl-prev {
+    position: relative;
+    right: 12px;
+}
+.owl-next {
+    position: relative;
+    left: 12px;
+}
+
+
 
 /* section training */
 
