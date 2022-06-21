@@ -609,26 +609,57 @@ h1 {
     margin: auto;
     margin-bottom: 10px;
 }
-.quest_banner h2{
+.ui-accordion .ui-accordion-header{
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 24px;
     line-height: 130%;
     color: #000000;
-    margin-bottom: 20px;
-}
-.quest_main{
-    max-width: 1188px;
-    border-radius: 20px;
-    background-color: #ffffff;
-    margin: auto;
-    padding: 30px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    width: 100%;
+    border: none;
+    max-width: 1188px;
+    border-radius: 20px 20px 0 0;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.ui-icon {
+    display: none;
+}
+
+.ui-accordion .ui-accordion-content {
+    border: none;
+    overflow: inherit;
+    max-width: 1188px;
+    border-radius: 0 0 20px 20px;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 20px;
     box-sizing: border-box;
 }
+
+.ui-accordion .ui-accordion-header.ui-state-acive {
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0;
+}
+
+.quest_banner h2 {
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000000;
+    box-sizing: border-box;
+}
+
 .quest_form{
     max-width: 1128px;
     /*height: 370px;*/
@@ -709,6 +740,11 @@ h1 {
     box-shadow: 8px 8px 109px rgba(0, 0, 0, 0.05), 8px 8px 109px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     border: none;
+}
+
+.ui-accordion .ui-accordion-header.ui-accordion-header-collapsed {
+    border-radius: 20px;
+    margin-bottom: 5px;
 }
 
 /* ? footer */
